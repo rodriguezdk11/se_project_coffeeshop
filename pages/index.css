@@ -23,7 +23,7 @@
   background-image: url(/images/background_header.svg);
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
 }
 
 .nav {
