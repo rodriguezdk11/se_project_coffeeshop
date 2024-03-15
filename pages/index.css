@@ -190,7 +190,7 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  padding: none;
+  padding: 0%;
   position: relative;
 }
 
