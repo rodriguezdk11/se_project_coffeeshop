@@ -118,7 +118,9 @@
                   placeholder="Name Surname"
                   required
                 />
-                <label for="number" class="form__label">Number of guests *</label>
+                <label for="number" class="form__label"
+                  >Number of guests *</label
+                >
                 <input
                   type="number"
                   class="form__input"
@@ -129,30 +131,40 @@
                   placeholder="1-8"
                   required
                 />
-                  <label for="datetime-local" class="form__label">Date & time *</label>
-                  <input
-                    type="datetime-local"
-                    class="form__input"
-                    id="datetime-local"
-                    name="datetime-local"
-                    required
-                  />
-                  <label for="email" class="form__label">Email *</label>
-                  <input
-                    type="email"
-                    class="form__input"
-                    id="email"
-                    name="email"
-                    placeholder="email@email.com"
-                    required
-                  />
+                <label for="datetime-local" class="form__label"
+                  >Date & time *</label
+                >
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  id="datetime-local"
+                  name="datetime-local"
+                  required
+                />
+                <label for="email" class="form__label">Email *</label>
+                <input
+                  type="email"
+                  class="form__input"
+                  id="email"
+                  name="email"
+                  placeholder="email@email.com"
+                  required
+                />
                 <button type="submit" class="form__button">Book a table</button>
-                <label for="checkbox" class="form__label_type_checkbox">
-                  <input type="checkbox" class="form__checkbox">
+                <label
+                  for="checkbox"
+                  class="form__label form__label_type_checkbox"
+                >
+                  <input
+                    for="checkbox"
+                    type="checkbox"
+                    class="form__checkbox"
+                  />
                   I agree with terms of use
                 </label>
               </fieldset>
             </form>
+          </div>
         </section>
         <section id="menu" class="menu"></section>
         <section id="contacts" class="contacts"></section>
