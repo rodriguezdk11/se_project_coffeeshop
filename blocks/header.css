@@ -1,0 +1,78 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-height: 720px;
+  max-height: 800px;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  background-image: url(/images/background_header.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
+  max-width: 729px;
+  margin-left: 80px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.header__span-accent {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+  max-width: 729px;
+  margin-top: 183px;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.header__description {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 80px;
+  max-width: 683px;
+  display: flex;
+}
+
+.header__image {
+  position: absolute;
+  top: 135px;
+  right: 20px;
+  width: 636px;
+  height: 568px;
+  margin-right: 5px;
+}
+
+.header__footer {
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.header__paragraph {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
